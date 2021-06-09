@@ -5,6 +5,7 @@ function renderWeather() {
             return response.json();
         }).then((data) => {
             weatherRec = data.records.location;
+            // console.log(weatherRec)
             let order = {
                 '基隆市': 0,
                 '宜蘭縣': 1,

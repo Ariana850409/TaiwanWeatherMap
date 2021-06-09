@@ -5,6 +5,7 @@ function renderRainPercent() {
             return response.json();
         }).then((data) => {
             rainPercentRec = data.records.location;
+            // console.log( rainPercentRec)
             let order = {
                 '基隆市': 0,
                 '宜蘭縣': 1,
